@@ -1,0 +1,26 @@
+{
+  "name": "lunchbot",
+  "version": "0.1.0",
+  "description": "A Node.js lunch suggestion app for Slack",
+  "main": "lunchbot.js",
+  "scripts": {
+    "start": "node lunchbot.js"
+  },
+  "dependencies": {
+    "express": "~4.9.x"
+  },
+  "engines": {
+    "node": "0.12.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samliew/slack-lunchbot.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "slack"
+  ],
+  "license": "MIT"
+}

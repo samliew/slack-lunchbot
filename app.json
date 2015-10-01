@@ -1,0 +1,6 @@
+{
+  "name": "Lunchbot",
+  "description": "A Node.js lunch suggestion app for Slack",
+  "repository": "https://github.com/samliew/slack-lunchbot",
+  "keywords": ["Slack", "lunchbot", "node", "express", "static"]
+}
