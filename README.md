@@ -8,7 +8,7 @@ https://github.com/samliew/slack-lunchbot
 
 ## Slack Integration
 
-https://<Team URL>.slack.com/apps/manage/custom-integrations
+https://[TeamUrl].slack.com/apps/manage/custom-integrations
 
 ### Incoming Webhook
 
@@ -21,12 +21,12 @@ https://<Team URL>.slack.com/apps/manage/custom-integrations
 
 - Required for listening of keywords like “suggest lunch,lunch”.
 - Get from Slack > Custom Integrations > Incoming WebHooks.
-- Action: POST to http://<Heroku Domain>/lunchbot
+- Action: POST to http://[HerokuUrl]/lunchbot
 
 ## Heroku
 
-- Management https://dashboard.heroku.com/apps/<Heroku Name>/ 
-- Repo, push to deploy https://git.heroku.com/<Heroku Name>.git 
+- Management https://dashboard.heroku.com/apps/[HerokuName]/ 
+- Repo, push to deploy https://git.heroku.com/[HerokuName].git 
 
 ## Heroku Environment Variables
 
@@ -46,8 +46,8 @@ TEMPORIZE_URL          | Do not touch, to be set up automatically by the Tempori
 
 - Access from Resources tab in Heroku
 - 5 events - One for each weekday in UTC time (minute hour * * dayOfWeek)
-  `"0 4 * * 2", "0 4 * * 3", "0 4 * * 4", "0 4 * * 5", "0 4 * * 6"`
-- Callback URL - http://<Heroku Domain>/lunchbot
+  - `"0 4 * * 2", "0 4 * * 3", "0 4 * * 4", "0 4 * * 5", "0 4 * * 6"`
+- Callback URL - http://[HerokuUrl]/lunchbot
 - Method - POST
 
 ### EOF
